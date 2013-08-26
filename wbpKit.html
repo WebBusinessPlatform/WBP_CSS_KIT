@@ -1,0 +1,503 @@
+<!-- 
+	WBP CSS Kit Ver 1.0
+
+	Copyright 2013 WBP, Inc
+	http://www.bizmpeople.com/
+
+	Designed and built by eden.
+ -->
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+	<script type='text/javascript' src='js/wbpKit.js'></script>
+	<link rel="stylesheet" type="text/css" href="css/wbpKit.css">
+</head>
+<body>
+
+	<!-- Global class -->
+	<h1>Global class</h1>
+	<div class="fs-12 fc-3">
+		<b>c-0</b>{color:#000;}<br />
+		<b>c-3</b>{color:#333;}<br />
+		<b>c-6</b>{color:#666;}<br />
+		<b>c-9</b>{color:#999;}<br />
+		<b>c-c</b>{color:#ccc;}<br />
+		<b>c-f</b>{color:#fff;}<br />
+		<b>fs-11</b>{font-size:11px;}<br />
+		<b>fs-12</b>{font-size:12px;}<br />
+		<b>fs-14</b>{font-size:14px;}<br />
+		<b>fs-16</b>{font-size:16px;}<br />
+		<b>fs-18</b>{font-size:18px;}<br />
+		<b>fs-20</b>{font-size:20px;}<br />
+		<b>fs-22</b>{font-size:22px;}<br /><br />
+		<b>fw-n</b>{font-weight:normal;}<br />
+		<b>fw-b</b>{font-weight:bold;}<br /><br />
+		<b>lh-18</b>{line-height:18px;}<br />
+		<b>lh-20</b>{line-height:20px;}<br />
+		<b>lh-22</b>{line-height:22px;}<br /><br />
+		<b>float-r</b>{float:right;}<br />
+		<b>float-l</b>{float:left;}<br /><br />
+		<b>align-c</b>{text-align:center;}<br />
+		<b>align-l</b>{text-align:left;}<br />
+		<b>align-r</b>{text-align:right;}<br /><br />
+		<b>input-10</b>{width: 10%}<br />
+		<b>input-20</b>{width: 20%}<br />
+		<b>input-30</b>{width: 30%}<br />
+		<b>input-40</b>{width: 40%}<br />
+		<b>input-50</b>{width: 50%}<br />
+		<b>input-60</b>{width: 60%}<br />
+		<b>input-70</b>{width: 70%}<br />
+		<b>input-80</b>{width: 80%}<br />
+		<b>input-90</b>{width: 90%}<br />
+		<b>input-100</b>{width: 100%}<br /><br />
+		<b>bt-0</b>{border-top: 0}<br />
+		<b>bb-0</b>{border-bottom: 0}<br />
+		<b>br-0</b>{border-right: 0}<br />
+		<b>bl-0</b>{border-left: 0}<br /><br />
+		<b>r</b>{border:1px solid red;}<br />
+	</div>
+	<!-- Global class -->
+
+	<hr>
+
+	<!-- Btns -->
+	<h1>Btns</h1>
+	<div>
+		<a href="#" class="btn btn-basic btn-size-m">btn-basic</a>
+		<a href="#" class="btn btn-gray btn-size-m">btn-gray</a>
+		<a href="#" class="btn btn-blue btn-size-m">btn-blue</a>
+		<a href="#" class="btn btn-red btn-size-m">btn-red</a>
+		<a href="#" class="btn btn-green btn-size-m">btn-green</a>
+		<a href="#" class="btn btn-bluegray btn-size-m">btn-bluegray</a>
+		<a href="#" class="btn btn-black btn-size-m">btn-black</a>
+		<a href="#" class="btn btn-basic btn-size-icon">btn-size-icon</a>
+		<a href="#" class="btn btn-basic btn-size-ss">btn-size-ss</a>
+		<a href="#" class="btn btn-basic btn-size-s">btn-size-s</a>
+		<a href="#" class="btn btn-basic btn-size-m">btn-size-m</a>
+		<a href="#" class="btn btn-basic btn-size-l">btn-size-l</a>
+		<a href="#" class="btn btn-basic btn-size-m"><i class="shadow"></i>shadow</a>
+	</div>
+	<!-- //Btns -->
+
+	<hr>
+
+	<!-- Swtich -->
+	<h1>Switch</h1>
+	<div>
+		<button class="switch" data-switch="N"><i></i></button>
+	</div>
+	<!-- //Swtich -->
+
+	<hr>
+
+	<!-- tree -->
+	<h1>Tree</h1>
+	<b style="display: inline-block;padding-bottom: 5px;">Custome title</b>
+	<ul class="tree">
+		<li><i></i>Depth 1</li>
+		<li class="folder"><i></i>Depth 1
+			<ul class="tree">
+				<li><i></i>Depth 2</li>
+				<li class="folder"><i></i>Depth 2
+					<ul class="tree">
+						<li><i></i>Depth 3</li>
+						<li><i></i>Depth 3</li>
+						<li><i></i>Depth 3</li>
+						<li><i></i>Depth 3</li>
+						<li><i></i>Depth 3</li>
+					</ul>
+				</li>
+				<li><i></i>Depth 2</li>
+				<li><i></i>Depth 2</li>
+				<li><i></i>Depth 2</li>
+			</ul>
+		</li>
+		<li><i></i>Depth 1</li>
+		<li><i></i>Depth 1</li>
+		<li><i></i>Depth 1</li>
+	</ul>
+	<!-- //tree -->
+
+	<hr>
+
+	<!-- Modal -->
+	<h1>Modal</h1>
+	<div>
+		<a href="#" data-modal="wbpKit" data-modal-ajax="/etc/zipcode" class="btn btn-basic btn-size-m">AJAX Modal Open</a>
+		<a href="#" data-modal="wbpKit2" class="btn btn-basic btn-size-m">Inpage Modal Open</a>
+	</div>
+
+	<div id="wbpKit" class="modal hide">
+		<div></div>
+	</div>	
+	<div id="wbpKit2" class="modal hide">
+		<div style="width: 600px;height: 300px;">Modal contents is here.</div>
+	</div>
+	<!-- //Modal -->
+
+	<hr>
+
+	<!-- Tooltip -->
+	<h1>Tooltip</h1>
+	<div class="fs-22 lh-22">
+		<a data-tooltip="Tooltip:top">top</a>
+		<a data-tooltip="Tooltip:bottom" data-tooltip-pos="bottom">bottom</a>
+		<a data-tooltip="Tooltip:left" data-tooltip-pos="left">left</a>
+		<a data-tooltip="Tooltip:right" data-tooltip-pos="right">right</a>
+		<a href="#" data-tooltip="Write" data-tooltip-pos="top" class="btn btn-blue btn-size-icon">W</a>
+		<a href="#" data-tooltip="Modify" data-tooltip-pos="top" class="btn btn-bluegray btn-size-icon">M</a>
+		<a href="#" data-tooltip="Delete" data-tooltip-pos="top" class="btn btn-red btn-size-icon">D</a>
+		<a href="#" data-tooltip="help" data-tooltip-pos="top" class="btn btn-black btn-size-icon">??</a>
+	</div>
+	<!-- //Tooltip -->
+
+	<hr>
+
+	<!-- widget - [form table] -->
+	<div class="widget">
+		<div class="title clearfix titleForm">
+			<i></i>
+			<h2>Form Table</h2>
+		</div>
+
+		<table cellpadding="0" cellspacing="0" width="100%" class="table-form">
+			<colgroup>
+				<col width="180px"></col>
+				<col></col>
+			</colgroup>
+			<tbody>
+				<tr>
+					<th>Text Disabled, read only</th>
+					<td><input type="text" class="input-80" value="Disabled, Read only option form" disabled></td>
+				</tr>
+				<tr>
+					<th>Text</th>
+					<td><input type="text" class="input-80"></td>
+				</tr>
+				<tr>
+					<th>Warning input</th>
+					<td><input type="text" class="inputWarning input-80" value="Warning Input"></td>
+				</tr>
+				<tr>
+					<th>Success input</th>
+					<td><input type="text" class="inputSuccess input-80" value="Success Input"></td>
+				</tr>
+				<tr>
+					<th>password</th>
+					<td><input type="password" class="input-80"></td>
+				</tr>
+				<tr>
+					<th>Text with note</th>
+					<td>
+						<input type="text" class="input-80">
+						<span class="formNote">샘플 폼 노트입니다.(inline)</span>
+						<span class="formNote formNoteBlock">샘플 폼 노트입니다.(block)</span>
+					</td>
+				</tr>
+				<tr>
+					<th>Text with placeholder</th>
+					<td><input type="text" class="input-80" placeholder="Text input placeholder attribute"></td>
+				</tr>
+				<tr>
+					<th>Textarea</th>
+					<td><textarea class="input-80" rows="5"></textarea></td>
+				</tr>
+				<tr>
+					<th>Input Size</th>
+					<td colspan="2">
+						<input type="text" class="input-10" placeholder="input-10"><br />
+						<input type="text" class="input-20" placeholder="input-20"><br />
+						<input type="text" class="input-30" placeholder="input-30"><br />
+						<input type="text" class="input-40" placeholder="input-40"><br />
+						<input type="text" class="input-50" placeholder="input-50"><br />
+						<input type="text" class="input-60" placeholder="input-60"><br />
+						<input type="text" class="input-70" placeholder="input-70"><br />
+						<input type="text" class="input-80" placeholder="input-80"><br />
+						<input type="text" class="input-90" placeholder="input-90"><br />
+						<input type="text" class="input-100" placeholder="input-100">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="right">
+						<button type="submit" class="btn btn-size-m btn-blue">Write</button>
+						<button type="submit" class="btn btn-size-m btn-red">Cancel</button>
+						<button type="submit" class="btn btn-size-m btn-basic">Reset</button>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<button type="submit" class="btn btn-size-m btn-blue">Write</button>
+						<button type="submit" class="btn btn-size-m btn-red">Cancel</button>
+						<button type="submit" class="btn btn-size-m btn-basic">Reset</button>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="left">
+						<button type="submit" class="btn btn-size-m btn-blue">Write</button>
+						<button type="submit" class="btn btn-size-m btn-red">Cancel</button>
+						<button type="submit" class="btn btn-size-m btn-basic">Reset</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="footer clearfix align-c">
+			<button type="submit" class="btn btn-size-m btn-blue">Write</button>
+			<button type="submit" class="btn btn-size-m btn-red">Cancel</button>
+			<button type="submit" class="btn btn-size-m btn-basic">Reset</button>
+		</div>
+	</div>
+
+	<div class="widget">
+		<div class="title clearfix titleForm">
+			<i></i>
+			<h2>Form Table(Selector)</h2>
+		</div>
+
+		<table cellpadding="0" cellspacing="0" width="100%" class="table-form">
+			<colgroup>
+				<col width="180px"></col>
+				<col></col>
+				<col width="180px"></col>
+				<col></col>
+			</colgroup>
+			<tbody>
+				<tr>
+					<th>Select</th>
+					<td>
+						<select>
+							<option>Select Option</option>
+							<option>Option #1</option>
+							<option>Option #2</option>
+							<option>Option #3</option>
+						</select>
+					</td>
+					<th>Checkbox</th>
+					<td>
+						<input type="checkbox" id="cb1" checked><label for="cb1">체크박스 1</label> 
+						<input type="checkbox" id="cb2"><label for="cb2">체크박스 2</label> 
+						<input type="checkbox" id="cb3"><label for="cb3">체크박스 3</label>
+					</td>
+				</tr>
+				<tr>
+					<th>Radio</th>
+					<td>
+						<input type="radio" name="radio" id="rd1" checked><label for="rd1">라디오 1</label> 
+						<input type="radio" name="radio" id="rd2"><label for="rd2">라디오 2</label> 
+						<input type="radio" name="radio" id="rd3"><label for="rd3">라디오 3</label>
+					</td>
+					<th>file</th>
+					<td><input type="file" class="input-80"></td>
+				</tr>
+			</tbody>
+		</table>
+
+	</div>
+	<!-- //widget - [form table] -->
+
+	<!-- widget - [basic table] -->
+	<div class="widget">
+		<div class="title clearfix">
+			<i></i>
+			<h2>Basic Table</h2>
+		</div>
+
+		<div class="search">
+			<span class="searchGroup">
+				<span>Search:</span>
+				<input type="text" size="30">
+				<input type="submit" class="btn btn-gray btn-size-m" value="검색">
+			</span>
+			<span class="searchGroup">
+				<span>Select:</span>
+				<select>
+					<option>옵션선택</option>
+					<option>옵션#1</option>
+					<option>옵션#2</option>
+				</select>
+			</span>
+		</div>
+
+		<table cellpadding="0" cellspacing="0" width="100%">
+			<thead>
+				<tr>
+					<th>column name</th>
+					<th>column name</th>
+					<th>column name</th>
+					<th>column name</th>
+					<th>column name</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Row1</td>
+					<td>Row2</td>
+					<td>Row3</td>
+					<td>Row4</td>
+					<td>Row5</td>
+				</tr>
+				<tr>
+					<td>Row1</td>
+					<td>Row2</td>
+					<td>Row3</td>
+					<td>Row4</td>
+					<td>Row5</td>
+				</tr>
+				<tr>
+					<td>Row1</td>
+					<td>Row2</td>
+					<td>Row3</td>
+					<td>Row4</td>
+					<td>Row5</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="paging clearfix">
+			<div class="info">Showing 1 to 10 of 57 entries</div>
+
+			<ul class="pageNum">
+				<li class="disable"><a href="#" onclick="javascript:return false;"><<</a></li>
+				<li><a href="#"><</a></li>
+				<li><a href="#">1</a></li>
+				<li class="on"><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+				<li><a href="#">5</a></li>
+				<li><a href="#">></a></li>
+				<li><a href="#">>></a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- //widget - [basic table] -->
+
+	<!-- 
+		widget - [striped table] 
+		table 태그에 table-striped클래스 추가.
+	-->
+	<div class="widget">
+		<div class="title clearfix">
+			<i></i>
+			<h2>Striped Table</h2>
+		</div>
+
+		<table cellpadding="0" cellspacing="0" width="100%" class="table-striped">
+			<thead>
+				<tr>
+					<th>column name</th>
+					<th>column name</th>
+					<th>column name</th>
+					<th>column name</th>
+					<th>column name</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Row1</td>
+					<td>Row2</td>
+					<td>Row3</td>
+					<td>Row4</td>
+					<td>Row5</td>
+				</tr>
+				<tr>
+					<td>Row1</td>
+					<td>Row2</td>
+					<td>Row3</td>
+					<td>Row4</td>
+					<td>Row5</td>
+				</tr>
+				<tr>
+					<td>Row1</td>
+					<td>Row2</td>
+					<td>Row3</td>
+					<td>Row4</td>
+					<td>Row5</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="paging clearfix">
+			<div class="info">Showing 1 to 10 of 57 entries</div>
+
+			<ul class="pageNum">
+				<li class="disable"><a href="#" onclick="javascript:return false;"><<</a></li>
+				<li><a href="#"><</a></li>
+				<li><a href="#">1</a></li>
+				<li class="on"><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+				<li><a href="#">5</a></li>
+				<li><a href="#">></a></li>
+				<li><a href="#">>></a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- //widget - [striped table] -->
+
+	<!-- 
+		widget - [Hover table] 
+		table 태그에 table-Hover클래스 추가.
+	-->
+	<div class="widget">
+		<div class="title clearfix">
+			<i></i>
+			<h2>Hover Table</h2>
+		</div>
+
+		<table cellpadding="0" cellspacing="0" width="100%" class="table-striped table-hover">
+			<thead>
+				<tr>
+					<th>column name</th>
+					<th>column name</th>
+					<th>column name</th>
+					<th>column name</th>
+					<th>column name</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Row1</td>
+					<td>Row2</td>
+					<td>Row3</td>
+					<td>Row4</td>
+					<td>Row5</td>
+				</tr>
+				<tr>
+					<td>Row1</td>
+					<td>Row2</td>
+					<td>Row3</td>
+					<td>Row4</td>
+					<td>Row5</td>
+				</tr>
+				<tr>
+					<td>Row1</td>
+					<td>Row2</td>
+					<td>Row3</td>
+					<td>Row4</td>
+					<td>Row5</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="paging clearfix">
+			<div class="info">Showing 1 to 10 of 57 entries</div>
+
+			<ul class="pageNum">
+				<li class="disable"><a href="#" onclick="javascript:return false;"><<</a></li>
+				<li><a href="#"><</a></li>
+				<li><a href="#">1</a></li>
+				<li class="on"><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+				<li><a href="#">5</a></li>
+				<li><a href="#">></a></li>
+				<li><a href="#">>></a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- //widget - [striped table] -->
+
+</body>
+</html>
